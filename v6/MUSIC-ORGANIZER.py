@@ -31,7 +31,23 @@ class main:
         # go over each new file
         for root, dirs, files in os.walk(NEWFILES):
             for file in files:
-                print(file)
+                if ".mp3" in file:
+                    fl = file.split(" - ")
+                    artist = fl[0]
+                    song = fl[1]
+
+                    # create a new file if it dosent exit
+                    if not os.path.isdir(MUSICALBUM+"/"+artist):
+                        os.makedirs(MUSICALBUM+"/"+artist)
+                    
+                    file_name = NEWFILES+"/"+file
+                    new_name = MUSICALBUM+"/"+artist+"/"+file
+
+                    if not os.path.exists(new_name):
+                        self.ff.indexed_print(new_name)
+                        os.rename(file_name, new_name)
+                    else:
+                        self.ff.indexed_print("FILE ALREADY EXISTS "+new_name)
         
         # go back to main menu
         input("DONE >")
