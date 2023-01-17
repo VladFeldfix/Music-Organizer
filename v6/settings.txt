@@ -1,2 +1,2 @@
-NEW FILES LOCATION --> D:\Users\Vlad\Desktop\New folder
-MUSIC ALBUM --> D:\Users\Vlad\Music
+New media location --> D:\Users\Vlad\Desktop\New folder
+Music album location --> D:\Users\Vlad\Music
