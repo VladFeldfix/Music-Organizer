@@ -1,7 +1,0 @@
-#USERS
-Vlad
-Hannah
-#COM_LOC
-D:\Users\Vlad\Music
-#DEV_LOC
-G:\

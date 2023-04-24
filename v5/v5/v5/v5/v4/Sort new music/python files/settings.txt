@@ -1,4 +1,0 @@
-#FROM
-D:\Users\Vlad\Downloads
-#TO
-D:\Users\Vlad\Desktop\testfolder2
