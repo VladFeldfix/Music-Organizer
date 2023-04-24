@@ -11,6 +11,7 @@ class main:
         self.ff.run()
     
     def start(self):
+        pass
         # get gloval variables
         NEWFILES = self.ff.settings_get("New media location")
         MUSICALBUM = self.ff.settings_get("Music album location")

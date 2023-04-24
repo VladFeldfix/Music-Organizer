@@ -351,14 +351,6 @@
    'C:\\Users\\HP '
    'User\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\ast.py',
    'PYMODULE'),
-  ('stringprep',
-   'C:\\Users\\HP '
-   'User\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\stringprep.py',
-   'PYMODULE'),
-  ('tracemalloc',
-   'C:\\Users\\HP '
-   'User\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\tracemalloc.py',
-   'PYMODULE'),
   ('_py_abc',
    'C:\\Users\\HP '
    'User\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\_py_abc.py',
@@ -403,6 +395,14 @@
    'C:\\Users\\HP '
    'User\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\http\\client.py',
    'PYMODULE'),
+  ('stringprep',
+   'C:\\Users\\HP '
+   'User\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\stringprep.py',
+   'PYMODULE'),
+  ('tracemalloc',
+   'C:\\Users\\HP '
+   'User\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\tracemalloc.py',
+   'PYMODULE'),
   ('subprocess',
    'C:\\Users\\HP '
    'User\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\subprocess.py',
@@ -427,6 +427,22 @@
    'C:\\Users\\HP '
    'User\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\sqlite3\\dbapi2.py',
    'PYMODULE'),
+  ('tkinter.filedialog',
+   'C:\\Users\\HP '
+   'User\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\tkinter\\filedialog.py',
+   'PYMODULE'),
+  ('tkinter.simpledialog',
+   'C:\\Users\\HP '
+   'User\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\tkinter\\simpledialog.py',
+   'PYMODULE'),
+  ('tkinter.commondialog',
+   'C:\\Users\\HP '
+   'User\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\tkinter\\commondialog.py',
+   'PYMODULE'),
+  ('tkinter.dialog',
+   'C:\\Users\\HP '
+   'User\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\tkinter\\dialog.py',
+   'PYMODULE'),
   ('tkinter.ttk',
    'C:\\Users\\HP '
    'User\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\tkinter\\ttk.py',
@@ -434,10 +450,6 @@
   ('tkinter.messagebox',
    'C:\\Users\\HP '
    'User\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\tkinter\\messagebox.py',
-   'PYMODULE'),
-  ('tkinter.commondialog',
-   'C:\\Users\\HP '
-   'User\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\tkinter\\commondialog.py',
    'PYMODULE'),
   ('tkinter',
    'C:\\Users\\HP '
