@@ -9,6 +9,7 @@
 from PersonalAssistant import *
 from PersonalAssistant import FIELD
 import os
+import shutil
 
 class main:
     def __init__(self):
@@ -22,19 +23,37 @@ class main:
         # run GUI
         self.pa.run()
 
-    def add(self):
+    def run(self):
         ## RUN
         #- Start the app
 
         # get settings
-        new_music = self.pa.get_setting("New Music Location")
+        new_music_folder = self.pa.get_setting("New Music Location")
         music_folder = self.pa.get_setting("Music Folder")
 
-        # go over each file
-        for root, dirs, files in os.walk(new_music):
+        # calc workload
+        workload = 0
+        done = 0
+        for root, dirs, files in os.walk(new_music_folder):
             for file in files:
                 if ".mp3" in file:
-                    self.pa.print(root+"/"+file)
+                    workload += 1
+
+        # go over each file
+        for root, dirs, files in os.walk(new_music_folder):
+            for file in files:
+                if ".mp3" in file:
+                    old_file_name = root+"/"+file
+                    singer_song = file.split(" - ")
+                    if len(singer_song) == 2:
+                        singer = singer_song[0]
+                        song_name = singer_song[1]
+                        if not os.path.isdir(music_folder+"/"+singer):
+                            os.makedirs(music_folder+"/"+singer)
+                        new_filename = music_folder+"/"+singer+"/"+file
+                        done += 1
+                        self.pa
+                        shutil.copy(old_file_name,new_filename)
 
         self.pa.restart()
 
