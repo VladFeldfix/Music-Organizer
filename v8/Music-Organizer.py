@@ -59,6 +59,7 @@ class main:
 
 main()
 
+# SCRIPT FUNCTIONS
 
 # SETTINGS
 # Database location --> The location of the user database. For example: database.db
