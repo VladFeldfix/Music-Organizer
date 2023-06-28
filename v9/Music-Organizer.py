@@ -8,7 +8,7 @@ class main:
         self.sc = SmartConsole("Music Organizer", "9.0")
 
         # set-up main memu
-        self.sc.main_menu["RUN"] = self.run
+        self.sc.add["RUN"] = self.run
 
         # get settings
         self.get_settings()
