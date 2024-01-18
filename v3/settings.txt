@@ -1,7 +1,0 @@
-#users:
-vlad
-hannah
-#comp_loc:
-D:\Users\Vlad\Desktop\test folder
-#dev_loc:
-D:\Users\Vlad\Desktop\test folder 2
