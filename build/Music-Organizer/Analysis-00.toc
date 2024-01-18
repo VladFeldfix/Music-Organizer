@@ -1,5 +1,5 @@
-(['D:\\Users\\Vlad\\Projects\\Applications\\Music-Organizer\\v9\\Music-Organizer.py'],
- ['D:\\Users\\Vlad\\Projects\\Applications\\Music-Organizer\\v9'],
+(['D:\\Users\\Vlad\\Projects\\Applications\\Music-Organizer\\Music-Organizer.py'],
+ ['D:\\Users\\Vlad\\Projects\\Applications\\Music-Organizer'],
  ['codecs'],
  ['C:\\Users\\HP '
   'User\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\hooks\\stdhooks',
@@ -25,7 +25,7 @@
    'User\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_inspect.py',
    'PYSOURCE'),
   ('Music-Organizer',
-   'D:\\Users\\Vlad\\Projects\\Applications\\Music-Organizer\\v9\\Music-Organizer.py',
+   'D:\\Users\\Vlad\\Projects\\Applications\\Music-Organizer\\Music-Organizer.py',
    'PYSOURCE')],
  [('inspect',
    'C:\\Users\\HP '
@@ -367,6 +367,26 @@
    'C:\\Users\\HP '
    'User\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\ast.py',
    'PYMODULE'),
+  ('_py_abc',
+   'C:\\Users\\HP '
+   'User\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\_py_abc.py',
+   'PYMODULE'),
+  ('subprocess',
+   'C:\\Users\\HP '
+   'User\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\subprocess.py',
+   'PYMODULE'),
+  ('signal',
+   'C:\\Users\\HP '
+   'User\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\signal.py',
+   'PYMODULE'),
+  ('stringprep',
+   'C:\\Users\\HP '
+   'User\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\stringprep.py',
+   'PYMODULE'),
+  ('tracemalloc',
+   'C:\\Users\\HP '
+   'User\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\tracemalloc.py',
+   'PYMODULE'),
   ('getpass',
    'C:\\Users\\HP '
    'User\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\getpass.py',
@@ -407,26 +427,6 @@
    'C:\\Users\\HP '
    'User\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\http\\client.py',
    'PYMODULE'),
-  ('_py_abc',
-   'C:\\Users\\HP '
-   'User\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\_py_abc.py',
-   'PYMODULE'),
-  ('subprocess',
-   'C:\\Users\\HP '
-   'User\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\subprocess.py',
-   'PYMODULE'),
-  ('signal',
-   'C:\\Users\\HP '
-   'User\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\signal.py',
-   'PYMODULE'),
-  ('tracemalloc',
-   'C:\\Users\\HP '
-   'User\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\tracemalloc.py',
-   'PYMODULE'),
-  ('stringprep',
-   'C:\\Users\\HP '
-   'User\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\stringprep.py',
-   'PYMODULE'),
   ('shutil',
    'C:\\Users\\HP '
    'User\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\shutil.py',
@@ -443,13 +443,13 @@
    'C:\\Users\\HP '
    'User\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\SmartConsole.py',
    'PYMODULE')],
- [('python311.dll',
-   'C:\\Users\\HP '
-   'User\\AppData\\Local\\Programs\\Python\\Python311\\python311.dll',
-   'BINARY'),
-  ('VCRUNTIME140.dll',
+ [('VCRUNTIME140.dll',
    'C:\\Users\\HP '
    'User\\AppData\\Local\\Programs\\Python\\Python311\\VCRUNTIME140.dll',
+   'BINARY'),
+  ('python311.dll',
+   'C:\\Users\\HP '
+   'User\\AppData\\Local\\Programs\\Python\\Python311\\python311.dll',
    'BINARY'),
   ('_decimal.pyd',
    'C:\\Users\\HP '
@@ -475,13 +475,13 @@
    'C:\\Users\\HP '
    'User\\AppData\\Local\\Programs\\Python\\Python311\\DLLs\\_bz2.pyd',
    'EXTENSION'),
-  ('_ssl.pyd',
-   'C:\\Users\\HP '
-   'User\\AppData\\Local\\Programs\\Python\\Python311\\DLLs\\_ssl.pyd',
-   'EXTENSION'),
   ('unicodedata.pyd',
    'C:\\Users\\HP '
    'User\\AppData\\Local\\Programs\\Python\\Python311\\DLLs\\unicodedata.pyd',
+   'EXTENSION'),
+  ('_ssl.pyd',
+   'C:\\Users\\HP '
+   'User\\AppData\\Local\\Programs\\Python\\Python311\\DLLs\\_ssl.pyd',
    'EXTENSION'),
   ('libcrypto-1_1.dll',
    'C:\\Users\\HP '
@@ -494,6 +494,6 @@
  [],
  [],
  [('base_library.zip',
-   'D:\\Users\\Vlad\\Projects\\Applications\\Music-Organizer\\v9\\build\\Music-Organizer\\base_library.zip',
+   'D:\\Users\\Vlad\\Projects\\Applications\\Music-Organizer\\build\\Music-Organizer\\base_library.zip',
    'DATA')],
  [])
