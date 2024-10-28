@@ -1,2 +1,2 @@
-New music location > New Music
-My music location > My Music
+New music location > D:\Users\Vlad\Desktop\New folder
+My music location > D:\Users\Vlad\Music

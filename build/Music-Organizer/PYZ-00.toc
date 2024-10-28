@@ -1,4 +1,4 @@
-('D:\\Users\\Vlad\\Projects\\Applications\\Music-Organizer\\build\\Music-Organizer\\PYZ-00.pyz',
+('D:\\Users\\Vlad\\Projects\\Applicationss\\Music-Organizer\\build\\Music-Organizer\\PYZ-00.pyz',
  [('inspect',
    'C:\\Users\\HP '
    'User\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\inspect.py',
@@ -339,10 +339,6 @@
    'C:\\Users\\HP '
    'User\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\ast.py',
    'PYMODULE'),
-  ('tracemalloc',
-   'C:\\Users\\HP '
-   'User\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\tracemalloc.py',
-   'PYMODULE'),
   ('_py_abc',
    'C:\\Users\\HP '
    'User\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\_py_abc.py',
@@ -358,6 +354,10 @@
   ('signal',
    'C:\\Users\\HP '
    'User\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\signal.py',
+   'PYMODULE'),
+  ('tracemalloc',
+   'C:\\Users\\HP '
+   'User\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\tracemalloc.py',
    'PYMODULE'),
   ('getpass',
    'C:\\Users\\HP '
